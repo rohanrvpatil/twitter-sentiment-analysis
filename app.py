@@ -8,6 +8,7 @@ from nltk.corpus import stopwords
 import string
 
 nltk.download('punkt')
+nltk.download('stopwords')
 
 
 @st.cache_data
