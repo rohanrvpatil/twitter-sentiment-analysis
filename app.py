@@ -7,6 +7,8 @@ from nltk.classify import NaiveBayesClassifier
 from nltk.corpus import stopwords
 import string
 
+nltk.download('punkt')
+
 
 @st.cache_data
 def load_model():
